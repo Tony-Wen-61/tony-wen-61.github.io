@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tony 的个人主页</title>
+    <link>https://tony-wen-61.github.io/</link>
+    <description>Recent content on Tony 的个人主页</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <copyright>2026 Tony</copyright>
+    <lastBuildDate>Thu, 11 Jun 2026 23:03:28 +0800</lastBuildDate>
+    <atom:link href="https://tony-wen-61.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于</title>
+      <link>https://tony-wen-61.github.io/about/</link>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://tony-wen-61.github.io/about/</guid>
+      <description>&lt;hr&gt;
+&lt;h3 id=&#34;关于我&#34;&gt;关于我&lt;/h3&gt;
+&lt;p&gt;24岁，是学生。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;联系方式&#34;&gt;联系方式&lt;/h3&gt;
+&lt;p&gt;你可以在 &lt;a href=&#34;https://tony-wen-61.github.io/&#34;&gt;主页&lt;/a&gt; 找到我的联系方式。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>我的第一篇 HTML 格式文章</title>
+      <link>https://tony-wen-61.github.io/posts/html-post-demo/</link>
+      <pubDate>Thu, 11 Jun 2026 22:00:00 +0800</pubDate>
+      <guid>https://tony-wen-61.github.io/posts/html-post-demo/</guid>
+      <description>这是一篇使用 HTML 格式编写的测试文章，展示了在 Hugo 中直接编写 HTML 的效果。</description>
+    </item>
+  </channel>
+</rss>

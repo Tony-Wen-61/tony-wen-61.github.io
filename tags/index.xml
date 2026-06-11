@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>标签 on Tony 的个人主页</title>
+    <link>https://tony-wen-61.github.io/tags/</link>
+    <description>Recent content in 标签 on Tony 的个人主页</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <copyright>2026 Tony</copyright>
+    <lastBuildDate>Thu, 11 Jun 2026 22:27:51 +0800</lastBuildDate>
+    <atom:link href="https://tony-wen-61.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTML</title>
+      <link>https://tony-wen-61.github.io/tags/html/</link>
+      <pubDate>Thu, 11 Jun 2026 22:00:00 +0800</pubDate>
+      <guid>https://tony-wen-61.github.io/tags/html/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>测试</title>
+      <link>https://tony-wen-61.github.io/tags/%E6%B5%8B%E8%AF%95/</link>
+      <pubDate>Thu, 11 Jun 2026 22:00:00 +0800</pubDate>
+      <guid>https://tony-wen-61.github.io/tags/%E6%B5%8B%E8%AF%95/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
