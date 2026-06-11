@@ -18,6 +18,10 @@ copyright = "© 2026 Tony"
   description = "欢迎来到我的个人主页！"
   author = "Tony"
   defaultTheme = "auto" # dark, light, auto
+
+  [params.assets]
+    disableFingerprinting = true
+
   
   # Show Table of Contents on post pages
   ShowToc = true
