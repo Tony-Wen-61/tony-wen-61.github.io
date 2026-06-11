@@ -1,0 +1,33 @@
+---
+title: "我的第一篇 HTML 格式文章"
+date: 2026-06-11T22:00:00+08:00
+draft: false
+tags: ["HTML", "测试"]
+categories: ["技术"]
+description: "这是一篇使用 HTML 格式编写的测试文章，展示了在 Hugo 中直接编写 HTML 的效果。"
+---
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 12px; color: white; margin-bottom: 20px;">
+    <h2 style="margin-top: 0; color: white;">✨ 欢迎来到 HTML 渲染测试页！</h2>
+    <p style="font-size: 1.1em; opacity: 0.9;">这是一篇直接用 <code>.html</code> 格式编写的 Hugo 文章。</p>
+    <p>由于是纯 HTML 代码，我们可以直接在这里使用各种 CSS 内联样式、结构标签以及交互脚本，而不需要受限于 Markdown 语法。</p>
+</div>
+
+<h3>📂 HTML 格式的优势</h3>
+<ul>
+    <li><strong>完全的样式控制</strong>：可以直接使用 <code>style</code> 属性或外部样式表自定义布局。</li>
+    <li><strong>丰富的媒体嵌入</strong>：可以非常方便地加入自定义的 <code>&lt;iframe&gt;</code>、音频或视频播放器。</li>
+    <li><strong>原生的交互体验</strong>：可以直接在页面中编写 <code>&lt;script&gt;</code> 脚本来实现动态交互。</li>
+</ul>
+
+<h3>🎨 一个简单的交互示例</h3>
+<div style="border: 1px solid #e2e8f0; padding: 20px; border-radius: 8px; background: #f8fafc; color: #1e293b;">
+    <p>点击下方按钮，可以触发原生的 JavaScript 弹窗：</p>
+    <button onclick="alert('你好！这是运行在 HTML 文章里的 JavaScript 代码！')" style="background-color: #4f46e5; color: white; padding: 8px 16px; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; transition: background 0.2s;" onmouseover="this.style.backgroundColor='#4338ca'" onmouseout="this.style.backgroundColor='#4f46e5'">
+        点击我测试 JS
+    </button>
+</div>
+
+<p style="margin-top: 20px; color: #64748b; font-style: italic;">
+    注意：在 HTML 页面中，要确保 Front Matter（即顶部的 <code>---</code> 区域）格式正确，这样 Hugo 才能读取到文章的标题、分类等元数据。
+</p>

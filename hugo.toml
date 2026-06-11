@@ -1,0 +1,113 @@
+baseURL = 'https://tony-wen-61.github.io/'
+theme = 'PaperMod'
+defaultContentLanguage = 'zh'
+locale = 'zh-cn'
+title = "Tony 的个人主页"
+copyright = "© 2026 Tony"
+
+# Output JSON for search
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[frontmatter]
+  date = [":git", ":fileModTime", "date", ":default"]
+  lastmod = [":git", ":fileModTime", "lastmod", ":default"]
+
+[params]
+  env = "production"
+  description = "欢迎来到我的个人主页！"
+  author = "Tony"
+  defaultTheme = "auto" # dark, light, auto
+  
+  # Show Table of Contents on post pages
+  ShowToc = true
+  TocOpen = false
+
+  # Show code block copy buttons and sharing buttons
+  ShowShareButtons = false
+  ShowCodeCopyButtons = true
+  
+  # Breadcrumbs
+  ShowBreadCrumbs = true
+
+  # Profile Mode (landing page style)
+  [params.profileMode]
+    enabled = true
+    title = "Tony"
+    subtitle = "欢迎来到我的个人主页！"
+    imageUrl = "https://github.com/tony-wen-61.png" # Using GitHub avatar as default
+    imageWidth = 150
+    imageHeight = 150
+
+  # [params.homeInfoParams]
+  #   Title = "Hi there 👋"
+  #   Content = "欢迎来到我的个人博客。这里是我记录技术积累、分享生活感悟以及探索人工智能的角落。"
+
+  # [[params.profileMode.buttons]]
+  #   name = "📄 浏览文章"
+  #   url = "/posts/"
+  # [[params.profileMode.buttons]]
+  #   name = "📁 归档"
+  #   url = "/archives/"
+  # [[params.profileMode.buttons]]
+  #   name = "🔍 搜索"
+  #   url = "/search/"
+  # [[params.profileMode.buttons]]
+  #   name = "🙋 关于我"
+  #   url = "/about/"
+
+  # Social Icons (Displayed beautifully under buttons in Profile Mode)
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/tony-wen-61"
+  [[params.socialIcons]]
+    name = "wechat"
+    url = "/images/wechat_qr.png"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:wenyuhan16@outlook.com"
+  [[params.socialIcons]]
+    name = "phone"
+    url = "tel:+86 13883200298"
+      # [[params.socialIcons]]
+  #   name = "zhihu"
+  #   url = "https://www.zhihu.com/people/your-zhihu-id"
+  # [[params.socialIcons]]
+  #   name = "buymeacoffee"
+  #   url = "https://www.buymeacoffee.com/your-username"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 20
+  [[menu.main]]
+    identifier = "categories"
+    name = "分类"
+    url = "/categories/"
+    weight = 30
+  [[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 40
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 50
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[security]
+  allowContent = ["text/markdown", "text/html"]
+
