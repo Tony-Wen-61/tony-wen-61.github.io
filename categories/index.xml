@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>分类 on Tony 的个人主页</title><link>https://tony-wen-61.github.io/categories/</link><description>Recent content in 分类 on Tony 的个人主页</description><generator>Hugo</generator><language>zh-cn</language><copyright>2026 Tony</copyright><lastBuildDate>Fri, 12 Jun 2026 22:51:02 +0800</lastBuildDate><atom:link href="https://tony-wen-61.github.io/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>每日新闻</title><link>https://tony-wen-61.github.io/categories/%E6%AF%8F%E6%97%A5%E6%96%B0%E9%97%BB/</link><pubDate>Fri, 12 Jun 2026 15:00:00 +0800</pubDate><guid>https://tony-wen-61.github.io/categories/%E6%AF%8F%E6%97%A5%E6%96%B0%E9%97%BB/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>分类 on Tony 的个人主页</title>
+    <link>https://tony-wen-61.github.io/categories/</link>
+    <description>Recent content in 分类 on Tony 的个人主页</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <copyright>2026 Tony</copyright>
+    <lastBuildDate>Fri, 12 Jun 2026 22:51:02 +0800</lastBuildDate>
+    <atom:link href="https://tony-wen-61.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>每日新闻</title>
+      <link>https://tony-wen-61.github.io/categories/%E6%AF%8F%E6%97%A5%E6%96%B0%E9%97%BB/</link>
+      <pubDate>Fri, 12 Jun 2026 15:00:00 +0800</pubDate>
+      <guid>https://tony-wen-61.github.io/categories/%E6%AF%8F%E6%97%A5%E6%96%B0%E9%97%BB/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
