@@ -1,0 +1,150 @@
+<div class="profile">
+    {{- with site.Params.profileMode }}
+    <div class="profile_inner">
+        {{- if .imageUrl -}}
+        {{- $img := "" }}
+        {{- if not (urls.Parse .imageUrl).IsAbs }}
+            {{- $img = resources.Get .imageUrl }}
+        {{- end }}
+        {{- if $img }}
+            {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
+            {{- if hugo.IsExtended -}}
+                {{- $processableFormats = $processableFormats | append "webp" -}}
+            {{- end -}}
+            {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
+            {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
+                {{- if (not (and (not .imageHeight) (not .imageWidth))) }}
+                    {{- $img = $img.Resize (printf "%dx%d" .imageWidth .imageHeight) }}
+                {{- else if .imageHeight }}
+                    {{- $img = $img.Resize (printf "x%d" .imageHeight) }}
+                {{ else if .imageWidth }}
+                    {{- $img = $img.Resize (printf "%dx" .imageWidth) }}
+                {{ else }}
+                    {{- $img = $img.Resize "150x150" }}
+                {{- end }}
+            {{- end }}
+            <img draggable="false" src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+                height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+        {{- else }}
+        <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+            height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+        {{- end }}
+        {{- end }}
+        <h1>{{ .title | default site.Title | markdownify }}</h1>
+        {{- partial "social_icons.html" -}}
+
+        {{- $typewriterTexts := .typewriterTexts }}
+        {{- if and (not $typewriterTexts) site.Data.typewriter }}
+            {{- $typewriterTexts = site.Data.typewriter.texts | default site.Data.typewriter }}
+        {{- end }}
+        {{- $typewriterTexts = $typewriterTexts | default (slice .subtitle) }}
+        <span id="typewriter-text" data-texts='{{ jsonify $typewriterTexts }}'>
+            {{- .subtitle | markdownify -}}
+        </span>
+
+        {{- with .buttons }}
+        <div class="buttons">
+            {{- range . }}
+            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
+                <span class="button-inner">
+                    {{ .name }}
+                    {{- if (findRE "://" .url) }}&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="14" width="14">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                    {{- end }}
+                </span>
+            </a>
+            {{- end }}
+        </div>
+        {{- end }}
+    </div>
+    {{- end}}
+</div>
+
+<script>
+    (function() {
+        document.addEventListener("DOMContentLoaded", function () {
+            const element = document.getElementById("typewriter-text");
+            if (!element) return;
+            
+            let texts = [];
+            try {
+                texts = JSON.parse(element.getAttribute("data-texts"));
+            } catch (e) {
+                console.error("Failed to parse typewriter texts:", e);
+            }
+            
+            if (!texts || texts.length === 0) return;
+            
+            // Select a single random quote to show and keep it unchanged
+            if (texts.length > 0) {
+                const selectedText = texts[Math.floor(Math.random() * texts.length)];
+                texts = [selectedText];
+            }
+            
+            // Clear initial fallback/static text
+            element.innerHTML = "";
+            
+            // Create container for text to avoid clearing cursor
+            const textSpan = document.createElement("span");
+            textSpan.className = "typewriter-content";
+            element.appendChild(textSpan);
+            
+            // Create cursor
+            const cursorSpan = document.createElement("span");
+            cursorSpan.className = "typewriter-cursor";
+            cursorSpan.textContent = "|";
+            element.appendChild(cursorSpan);
+            
+            let textIndex = 0;
+            let charIndex = 0;
+            let isDeleting = false;
+            let typingSpeed = 100; // Type speed (ms)
+            let deletingSpeed = 50; // Delete speed (ms)
+            let delayBetweenTexts = 2500; // Pause after full text typed (ms)
+            
+            function type() {
+                if (textIndex >= texts.length) {
+                    textIndex = 0;
+                }
+                const currentFullText = texts[textIndex];
+                
+                if (isDeleting) {
+                    // Deleting state
+                    textSpan.textContent = currentFullText.substring(0, charIndex - 1);
+                    charIndex--;
+                    
+                    if (charIndex === 0) {
+                        isDeleting = false;
+                        textIndex = (textIndex + 1) % texts.length;
+                        setTimeout(type, 500); // Pause before starting to type next text
+                        return;
+                    }
+                    setTimeout(type, deletingSpeed);
+                } else {
+                    // Typing state
+                    textSpan.textContent = currentFullText.substring(0, charIndex + 1);
+                    charIndex++;
+                    
+                    if (charIndex === currentFullText.length) {
+                        if (texts.length === 1) {
+                            // If only one text, we just stop typing and keep cursor blinking
+                            return;
+                        }
+                        isDeleting = true;
+                        setTimeout(type, delayBetweenTexts); // Pause at end of text
+                        return;
+                    }
+                    setTimeout(type, typingSpeed);
+                }
+            }
+            
+            // Initial delay before typing starts
+            setTimeout(type, 800);
+        });
+    })();
+</script>

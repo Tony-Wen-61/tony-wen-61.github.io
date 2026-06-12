@@ -39,7 +39,7 @@ copyright = "© 2026 Tony"
     enabled = true
     title = "Tony"
     subtitle = "欢迎来到我的个人主页！"
-    imageUrl = "https://github.com/tony-wen-61.png" # Using GitHub avatar as default
+    imageUrl = "/images/avatar.jpg" # Using GitHub avatar as default
     imageWidth = 150
     imageHeight = 150
 
