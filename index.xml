@@ -1,32 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Tony 的个人主页</title>
-    <link>https://tony-wen-61.github.io/</link>
-    <description>Recent content on Tony 的个人主页</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <copyright>2026 Tony</copyright>
-    <lastBuildDate>Thu, 11 Jun 2026 23:03:28 +0800</lastBuildDate>
-    <atom:link href="https://tony-wen-61.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>关于</title>
-      <link>https://tony-wen-61.github.io/about/</link>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://tony-wen-61.github.io/about/</guid>
-      <description>&lt;hr&gt;
-&lt;h3 id=&#34;关于我&#34;&gt;关于我&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Tony 的个人主页</title><link>https://tony-wen-61.github.io/</link><description>Recent content on Tony 的个人主页</description><generator>Hugo</generator><language>zh-cn</language><copyright>2026 Tony</copyright><lastBuildDate>Fri, 12 Jun 2026 15:08:51 +0800</lastBuildDate><atom:link href="https://tony-wen-61.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>每日快讯 | 2026-06-12</title><link>https://tony-wen-61.github.io/posts/daily-news-2026-06-12/</link><pubDate>Fri, 12 Jun 2026 15:00:00 +0800</pubDate><guid>https://tony-wen-61.github.io/posts/daily-news-2026-06-12/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;AI 声明&lt;/strong&gt;：内容由 AI 根据多源数据自动抓取、翻译、筛选生成，仅供参考。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="-国际新闻"&gt;🌍 国际新闻&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;美伊和平协议或周末在欧洲签署，特朗普撤回对伊“狠狠打击”威胁言论；印证双方谈判已取得实质进展，但伊方对协议定稿及最终批准仍持谨慎态度&lt;/strong&gt; | &lt;a href="https://www.zaobao.com/news/world/story20260612-9193409"&gt;联合早报&lt;/a&gt; / &lt;a href="https://www.nytimes.com/live/2026/06/11/world/iran-war-trump-us-israel"&gt;纽约时报&lt;/a&gt; / &lt;a href="http://www.news.cn/20260612/617f755b15524b2c9d25e8d6fdae7502/c.html"&gt;新华网&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;美军计划大幅减少为北约欧洲行动提供的战机与军舰数量，削弱其远程打击和防卫能力&lt;/strong&gt; | &lt;a href="https://www.zaobao.com/news/world/story20260612-9195354"&gt;联合早报&lt;/a&gt; / &lt;a href="https://www.nytimes.com/2026/06/12/world/europe/us-nato-cuts-drawdown-jets.html"&gt;纽约时报&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;韩国前总统尹锡悦涉嫌“派遣无人机渗透平壤事件”以制造戒严借口，一审被判处有期徒刑 30 年&lt;/strong&gt; | &lt;a href="https://www.zaobao.com/news/world/story20260612-9194125"&gt;联合早报&lt;/a&gt; / &lt;a href="https://www.nytimes.com/2026/06/11/world/asia/react-martial-law-yoon-court.html"&gt;纽约时报&lt;/a&gt; / &lt;a href="http://www.news.cn/20260612/6d94936f660546288b955b09a0fec822/c.html"&gt;新华网&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;英国国防部长希利因指责政府未能为国防投入足够资源辞职，斯塔默首相紧急任命丹·贾维斯接任；国务大臣卡恩斯亦因拨款争议辞职&lt;/strong&gt; | &lt;a href="https://www.zaobao.com/news/world/story20260612-9193686"&gt;联合早报&lt;/a&gt; / &lt;a href="https://www.nytimes.com/2026/06/11/world/europe/uk-defense-secretary-resigns-healey-starmer.html"&gt;纽约时报&lt;/a&gt; / &lt;a href="http://www.news.cn/20260612/8538be999ba649fa909afc4b416b2533/c.html"&gt;新华网&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;波罗的海深海海底光缆疑遭蓄意切断，触发北约历史上首次协调军事防务反应&lt;/strong&gt; | &lt;a href="https://www.nytimes.com/live/2026/06/11/world/iran-war-trump-us-israel"&gt;纽约时报&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;气象部门 NOAA 官宣全球性厄尔尼诺现象正式开启，将加剧极端洪水与高温等灾害天气&lt;/strong&gt; | &lt;a href="https://www.washingtonpost.com/weather/2026/06/11/el-nio-is-here-noaa-declares/"&gt;华盛顿邮报&lt;/a&gt; / &lt;a href="https://www.nytimes.com/2026/06/11/climate/el-nino-noaa.html"&gt;纽约时报&lt;/a&gt; / &lt;a href="http://www.news.cn/20260612/cbcf1abe0aaa42e0bb0f87b06f85f16a/c.html"&gt;新华网&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;朝鲜最高领导人金正恩向普京致国庆贺电，强调朝俄关系正向同盟方向深化，永远与俄罗斯站在一起&lt;/strong&gt; | &lt;a href="https://www.zaobao.com/news/world/story20260612-9195122"&gt;联合早报&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;特朗普提名纽约南区前联邦检察官杰伊·克莱顿出任国家情报总监，以平息代理人选引发的政坛风波&lt;/strong&gt; | &lt;a href="https://www.zaobao.com/news/world/story20260612-9194579"&gt;联合早报&lt;/a&gt; / &lt;a href="http://www.news.cn/20260612/48783d12beb24eb58f214c50dc497e1c/c.html"&gt;新华网&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="-国内新闻"&gt;🐼 国内新闻&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;《习近平外交文选》第一卷、第二卷正式出版发行，收录重大外交外事活动及论述&lt;/strong&gt; | &lt;a href="https://tv.cctv.com/lm/xwlb/day/20260611.shtml"&gt;CCTV新闻联播&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;李强主持召开国务院常务会议，部署提升农业综合生产能力及加快农业现代化步伐&lt;/strong&gt; | &lt;a href="https://tv.cctv.com/lm/xwlb/day/20260611.shtml"&gt;CCTV新闻联播&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;公安部通报全国电信网络诈骗案件发案连续 8 个月同比下降，高发的刷单返利等 10 类电诈案占 85%&lt;/strong&gt; | &lt;a href="http://www.news.cn/20260612/20eda1a706854705a2f13c2450181eb4/c.html"&gt;新华网&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;中国气象局警告：今夏西北气温提早飙升冰雪融化，塔里木河等流域面临极端洪水风险&lt;/strong&gt; | &lt;a href="https://www.zaobao.com/news/china/story20260612-9195656"&gt;联合早报&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;中方回应菲律宾交涉：黄岩岛浮台为中科院临时原位科研采样实验平台，开展正常科研活动&lt;/strong&gt; | &lt;a href="https://www.zaobao.com/news/china/story20260612-9194620"&gt;联合早报&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;网信办指导网络平台制定自律公约，严管侮辱企业家及热搜呈现企业家口水战&lt;/strong&gt; | &lt;a href="https://www.zaobao.com/news/china/story20260612-9194132"&gt;联合早报&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="-商业财经"&gt;💼 商业财经&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SpaceX 开启全球史上最大规模 IPO：拟以每股 135 美元筹资 750 亿美元，上市估值锁定在 1.77 万亿美元，影子交易显示涨幅已超 35%&lt;/strong&gt; | &lt;a href="http://www.news.cn/20260612/91f35905a82d48e6bbddc576e4a0f6b2/c.html"&gt;新华网&lt;/a&gt; / &lt;a href="https://techcrunch.com/2026/06/11/spacex-officially-prices-shares-at-135-in-the-largest-ipo-ever/"&gt;TechCrunch&lt;/a&gt; / &lt;a href="https://www.qbitai.com/2026/06/434733.html"&gt;量子位&lt;/a&gt; / &lt;a href="https://database.caixin.com/2026-06-12/102453396.html"&gt;财新网&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;海关总署数据：前 5 个月粤港澳大湾区外贸总额大增 18.8%，人工智能相关电子元器件进出口同比暴增超五成&lt;/strong&gt; | &lt;a href="https://wallstreetcn.com/livenews/3118623"&gt;华尔街见闻&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;中东局势缓和令原油期货显著下行，美原油收跌 2.58% 至每桶 87.71 美元，布伦特原油收跌 2.92% 至 90.38 美元&lt;/strong&gt; | &lt;a href="http://www.news.cn/20260612/462d378cbd1149cfada7b1785f94619d/c.html"&gt;新华网&lt;/a&gt; / &lt;a href="http://www.news.cn/20260612/e02b8611cc104b1aaaab4f53e67eceb3/c.html"&gt;新华网&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;高盛以供应过剩及全球需求疲软为由，下调 2027 年布伦特原油均价预测至 80 美元/桶&lt;/strong&gt; | &lt;a href="https://database.caixin.com/2026-06-12/102453400.html"&gt;财新网&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;欧洲央行管委 Nagel 释放鹰派加息信号：若通胀形势因地缘冲突恶化，保留 7 月继续加息选项&lt;/strong&gt; | &lt;a href="https://database.caixin.com/2026-06-12/102453398.html"&gt;财新网&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;比尔·盖茨出席众议院听证会就爱泼斯坦案作证，称其曾以婚外情施压，并表示后悔与其结识&lt;/strong&gt; | &lt;a href="https://international.caixin.com/2026-06-12/102453358.html"&gt;财新网&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="-ai科技"&gt;🚀 AI科技&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;杰夫·贝佐斯投资的物理 AI 独角兽 Prometheus 宣布完成 120 亿美元巨额融资，估值飙升至 410 亿美元&lt;/strong&gt; | &lt;a href="https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/"&gt;TechCrunch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;首篇多模态音频推理综述出炉，万字拆解从端到端到 Agent 驱动的四大前沿音频推理路径&lt;/strong&gt; | &lt;a href="http://weixin.sogou.com/weixin?type=2&amp;amp;query=%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83+%E9%80%9A%E5%90%91AGI%E7%9A%84%E5%85%B3%E9%94%AE%E6%8B%BC%E5%9B%BE%EF%BC%81%E9%A6%96%E7%AF%87%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E3%80%8C%E9%9F%B3%E9%A2%91%E6%8E%A8%E7%90%86%E3%80%8D%E7%BB%BC%E8%BF%B0%E5%87%BA%E7%82%89%EF%BC%8C%E4%B8%87%E5%AD%97%E6%8B%86%E8%A7%A3%E5%9B%9B%E5%A4%A7%E5%89%8D%E6%B2%BF%E8%B7%AF%E5%BE%84"&gt;机器之心&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;视频生成新范式 NEWTON 算法发布：由 Agent 驱动，将牛顿物理规律显式融入视频生成工具箱&lt;/strong&gt; | &lt;a href="http://weixin.sogou.com/weixin?type=2&amp;amp;query=%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83+NEWTON%3A%E4%BB%8E%E3%80%8C%E7%AD%89%E7%89%A9%E7%90%86%E6%B6%8C%E7%8E%B0%E3%80%8D%E5%88%B0%E3%80%8C%E8%AF%B7%E7%89%9B%E9%A1%BF%E8%BF%9B%E5%B7%A5%E5%85%B7%E7%AE%B1%E3%80%8D%EF%BC%8CAgent%20%E9%A9%B1%E5%8A%A8%E7%9A%84%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E6%96%B0%E8%8C%83%E5%BC%8F"&gt;机器之心&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ACM 博士论文奖出炉：纽约大学刘书亮因其对三模态大模型的贡献获奖，其曾获三届 IMO 金牌得主&lt;/strong&gt; | &lt;a href="http://weixin.sogou.com/weixin?type=2&amp;amp;query=%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83+ACM%E5%8D%9A%E5%A3%AB%E8%AE%BA%E6%96%87%E5%A5%96%E5%87%BA%E7%82%89%EF%BC%9A%E7%BA%BD%E7%BA%A6%E5%A4%A7%E5%AD%A6%E5%88%98%E4%B9%A6%E4%BA%AE%EF%BC%8C%E6%9B%BE%E6%98%AF%E4%B8%89%E5%B1%8AIMO%E9%87%91%E7%89%8C%E5%BE%97%E4%B8%BB"&gt;机器之心&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UC伯克利发布全新极难 Agent 基准测试：Claude Fable 5 与 GPT 5.5 在 3D 建模等高阶测试中均吃零分&lt;/strong&gt; | &lt;a href="https://www.qbitai.com/2026/06/434774.html"&gt;量子位&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>关于</title><link>https://tony-wen-61.github.io/about/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://tony-wen-61.github.io/about/</guid><description>&lt;hr&gt;
+&lt;h3 id="关于我"&gt;关于我&lt;/h3&gt;
 &lt;p&gt;24岁，是学生。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;联系方式&#34;&gt;联系方式&lt;/h3&gt;
-&lt;p&gt;你可以在 &lt;a href=&#34;https://tony-wen-61.github.io/&#34;&gt;主页&lt;/a&gt; 找到我的联系方式。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>我的第一篇 HTML 格式文章</title>
-      <link>https://tony-wen-61.github.io/posts/html-post-demo/</link>
-      <pubDate>Thu, 11 Jun 2026 22:00:00 +0800</pubDate>
-      <guid>https://tony-wen-61.github.io/posts/html-post-demo/</guid>
-      <description>这是一篇使用 HTML 格式编写的测试文章，展示了在 Hugo 中直接编写 HTML 的效果。</description>
-    </item>
-  </channel>
-</rss>
+&lt;h3 id="联系方式"&gt;联系方式&lt;/h3&gt;
+&lt;p&gt;你可以在 &lt;a href="https://tony-wen-61.github.io/"&gt;主页&lt;/a&gt; 找到我的联系方式。&lt;/p&gt;</description></item><item><title>我的第一篇 HTML 格式文章</title><link>https://tony-wen-61.github.io/posts/html-post-demo/</link><pubDate>Thu, 11 Jun 2026 22:00:00 +0800</pubDate><guid>https://tony-wen-61.github.io/posts/html-post-demo/</guid><description>这是一篇使用 HTML 格式编写的测试文章，展示了在 Hugo 中直接编写 HTML 的效果。</description></item></channel></rss>
